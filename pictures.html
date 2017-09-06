@@ -5,26 +5,28 @@
     <title>Resort Website: Gallery</title>
   </head>
   <body>
-    <h1>Photo Gallery</h1>
-    <img src="img/gallery-banner.jpg" alt="Outside view.">
-    <p>
-      Take a look around!
-    </p>
-    <ul>
-      <li>
-        Rooms:</br>
-        <img src="img/rooms1.jpg" alt="Suite 1"></br>
-        <img src="img/rooms2.jpg" alt="Suite 2">
-      </li>
-      <li>
-        Swimming Pool:</br>
-        <img src="img/pool.jpg" alt="Pool">
-      </li>
-      <li>
-        Gym:</br>
-        <img src="img/gym.jpg" alt="Gym">
-      </li>
-    </ul>
-    <a href="index.html">Back</a>
+    <div id="main-container">
+      <h1>Photo Gallery</h1>
+      <div class="menu">
+        <a href="index.html" class="menu">Welcome</a> &nbsp;|&nbsp;
+        <a href="accomodations.html" class="menu">Accomodations</a> &nbsp;|&nbsp;
+        <a href="activities.html" class="menu">Activities</a> &nbsp;|&nbsp;
+        <a href="travel-arrangements.html" class="menu">Travel Arrangements</a> &nbsp;|&nbsp;
+        <a href="contact-info.html" class="menu">Contact Us</a>
+      </div>
+      <img src="img/gallery-banner.jpg" alt="Outside view." class="main-banner">
+      <p>
+        Nullam at viverra nulla. Mauris fermentum varius finibus. Quisque tellus nunc, feugiat a nulla in, aliquam ultrices metus. Sed sodales, odio id aliquet ultrices.
+      </p>
+      <div id="gallery">
+        <p>Rooms:</p>
+        <img src="img/rooms1.jpg" alt="Suite 1" class="gallery-thumbnail">
+        <img src="img/rooms2.jpg" alt="Suite 2" class="gallery-thumbnail">
+        <p>Swimming Pool:</p>
+        <img src="img/pool.jpg" alt="Pool" class="gallery-thumbnail">
+        <p>Gym:</p>
+        <img src="img/gym.jpg" alt="Gym" class="gallery-thumbnail">
+      </div>
+    </div>
   </body>
 </html>
